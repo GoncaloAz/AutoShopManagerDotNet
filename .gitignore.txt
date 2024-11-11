@@ -1,0 +1,76 @@
+# Compiled files
+bin/
+obj/
+
+# User-specific files
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Build directories
+artifacts/
+.vscode/
+.DS_Store
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Scaffolding
+.scaffolding/
+
+# Azure Web Apps
+.azure/
+
+# Rider files
+.idea/
+
+# macOS
+*.DS_Store
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# DotNetCore dependencies
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+global.json
+
+# Node.js dependencies
+node_modules/
+
+# Coverage and Test Results
+coverage/
+TestResults/
+
+# VS Code settings
+.vscode/
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Backup files
+*~ 
+# Azure Functions local settings file
+local.settings.json
+Values.json
+
+# DotNetWatch
+.dotnet-watch.json
+
+# Security
+secrets.json
