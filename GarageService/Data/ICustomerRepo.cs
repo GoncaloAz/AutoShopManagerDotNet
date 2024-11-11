@@ -4,8 +4,8 @@ namespace GarageService.Data{
     public interface ICustomerRepo{
         bool SaveChanges();
         IEnumerable<Customer> GetAllCustomers();
-        Customer GetCustomerById();
-        Customer GetCustomerByNumber();
-        void CreateCliente(ClientCertificateOption client);
+        Customer GetCustomerByTaxId(int taxId);
+        Customer GetCustomerByPhoneNumber(int phoneNumber);
+        void CreateCustomer(Customer client);
     }
 }

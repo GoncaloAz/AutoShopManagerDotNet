@@ -8,9 +8,9 @@ namespace GarageService.Models
         [Required]
         public string Name { get; set; }
         [Required]
-        public string PhoneNumber { get; set; }
+        public int PhoneNumber { get; set; }
         [Required]
-        public string TaxId { get; set; }
+        public int TaxId { get; set; }
         [Required]
         public float AmmountOwed {get; set; }
     }
