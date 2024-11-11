@@ -1,3 +1,4 @@
+using CustomerService.Data;
 using GarageService.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseInMemoryDatabase("InMem"));
+builder.Services.AddScoped<ICustomerRepo, CustomerRepo>();
+
 
 var app = builder.Build();
 
