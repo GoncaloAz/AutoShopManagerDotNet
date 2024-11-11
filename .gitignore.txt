@@ -1,6 +1,6 @@
 # Compiled files
-bin/
-obj/
+bin\
+obj\
 
 # User-specific files
 *.swp
@@ -11,12 +11,12 @@ obj/
 
 # Logs
 *.log
-logs/
+logs\
 npm-debug.log*
 
 # Build directories
-artifacts/
-.vscode/
+artifacts\
+.vscode\
 .DS_Store
 
 # OS-generated files
@@ -24,13 +24,13 @@ Thumbs.db
 ehthumbs.db
 
 # ASP.NET Scaffolding
-.scaffolding/
+.scaffolding\
 
 # Azure Web Apps
-.azure/
+.azure\
 
 # Rider files
-.idea/
+.idea\
 
 # macOS
 *.DS_Store
@@ -39,7 +39,7 @@ ehthumbs.db
 *.nupkg
 *.snupkg
 *.nuspec
-packages/
+packages\
 
 # DotNetCore dependencies
 project.lock.json
@@ -48,14 +48,14 @@ project.assets.json
 global.json
 
 # Node.js dependencies
-node_modules/
+node_modules\
 
 # Coverage and Test Results
-coverage/
-TestResults/
+coverage\
+TestResults\
 
 # VS Code settings
-.vscode/
+.vscode\
 
 # Database files
 *.mdf
